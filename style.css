@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar start */
+.navbar{
+    background-image: url(nav-bg.jg);
+font-size: x-large;
+font-weight: bolder;
+font-family: sans-serif;
+}
+
+.nav-logo{
+    width: 7%;
+    height: 7%;
+}
+.nav-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+ 
+.nav-lin:hover{
+    color: red;
+}
+.btnstyle a{
+    text-decoration: none;
+    color: white;
+}
+/* nav bar end  */
+
+
+/* main section start */
+
+/* detail section start */
+.bg-img {
+    background-image: url(bg-img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* detail section end */
+
+/* main section end  */
+
+
+/* poster sectio start  */
+.bg-image{
+
+background-image: url(https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg?w=1060&t=st=1710851632~exp=1710852232~hmac=e39787eca0d54487e1c985e2763559d9d65cb0a98bae1e4a64634ef4926c0e89);
+}
+/* poster sectio end  */
+
+/* footer start  */
+footer a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* footer end  */

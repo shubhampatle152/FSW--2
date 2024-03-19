@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- nav start  -->
+<div class="container-fluid  bg-img ">
+    <nav class=" navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-logo" href="index.html"><img class="image-logo" src="1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="  collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="ms-auto navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="https://www.linkedin.com/in/shubham-patle152/"><A:mail>About me</A:mail></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/shubham-patle152/overlay/contact-info/">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="ms-5 mt-sm-3 d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btnstyle btn-danger me-md-2" type="button"> <a href="login.html">Login</a> </button>
+                    <button class="btn btnstyle btn-danger" type="button"><a href="singup.html">sing up</a></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- nav end  -->
+    <!-- form start  -->
+
+    <form class="container-sm ">
+        <div>
+            <h1 class="text-center">Sign up Form</h1>
+        </div>
+        <div class="mb-3">
+            <label for="firstname1" class="form-label">Enter your first Name</label>
+            <input type="text" class="form-control" id="firstname1">
+        </div>
+        <div class="mb-3">
+            <label for="firstname2" class="form-label">Enter your second Name</label>
+            <input type="text" class="form-control" id="firstname2">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Enter your dob</label>
+            <input type="date" class="form-control" id="exampleInputPassword1">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Create new Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">you are not bot</label>
+        </div>
+        <button type="submit" class="mb-3 btn btn-primary">Sign up</button>
+    </form>
+
+<!-- form end  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
